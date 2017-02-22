@@ -54,7 +54,7 @@ time, mark, audio, video {
 
 #stockPhotoOne {
 	height: 100%;
-	width: 50%;
+	width: 100%;
 	float: left;
 	margin-right: 10px;
 }
@@ -77,26 +77,39 @@ time, mark, audio, video {
 	padding-top: 30px;
 	font-size: 5vh;
 	font-weight: bold;
-	width: 50%;
-	margin-right: 0px !important;
-	padding-right: 0px !important;
-	margin-bottom: 3px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #mainSegmentOne {
-	font-size: 24px;
-	width: 100%;
+	width: 50%;
+	height: 40%;
+	float: left;
+}
+
+#mainSegmentFour {
+	font-size: calc(1vw + 1vh);
+	width: 50%;
 	height: 40%;
 	float: left;
 	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+#mainSegmentFour {
+	float: right;
+	width: 50%;
+	height: 40%;
 }
 
 #mainSegmentTwo {
 	font-size: 24px;
 	width: 50%;
-	height: 35%;
+	height: 40%;
 	float: left;
 	font-family: sans-serif;
+	text-align: center;
 }
 
 #mainSectionThree {
@@ -110,12 +123,13 @@ time, mark, audio, video {
 }
 
 .languageCardLogo {
-	height: 100px;
-	width: 100px;
+	height: 10vh;
+	width: 7vw;
 }
 
 .languageCard {
 	padding: 10px;
 	box-shadow: none !important;
 	margin: auto;
+	background: none !important;
 }
